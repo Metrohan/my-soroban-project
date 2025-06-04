@@ -46,7 +46,7 @@ The RWA Investment Platform democratizes access to traditionally illiquid real w
 
 ```bash
 # Clone the repository
-git clone <repository-url>
+git clone <https://github.com/Metrohan/my-soroban-project.git>
 cd rwa-investment-platform
 
 # Navigate to frontend directory
