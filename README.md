@@ -1,26 +1,26 @@
-# 🎨 Frontend Özelleştirme PDR
+# 🎨 Frontend Customization PDR
 
-## 📋 **Proje Bilgileri**
+## 📋 **Project Details**
 
-### **Seçilen Sektör**: Teknoloji ve Yazılım  
-### **Platform Adı**: TechToken Innovation Market  
-### **Ana Varlık Türü**: SaaS çözümleri, yapay zeka uygulamaları, patentli yazılımlar  
-### **Hedef Kitle**: Teknoloji girişimcileri, yazılım geliştiricileri, erken aşama yatırımcılar  
+### **Selected Sector**: Technology and Software
+### **Platform Name**: TechToken Innovation Market  
+### **Main Asset Types**: SaaS solutions, AI applications, patented software 
+### **Target Audience**: Tech entrepreneurs, software developers, early-stage investors 
 ### **Contract_ID**: CDI7AI3K6Y6F5LL5AFVEQBZRGTK4PBYN7JSVSJLKZ3YO27UMUD2F3DN3
 
-## 🎯 **Platform Vizyonu**
+## 🎯 **Platform Vision**
 
-### **Ana Konsept**  
-TechToken Innovation Market, yazılım tabanlı gerçek dünya varlıklarını (SaaS projeleri, yapay zeka sistemleri, lisanslı yazılımlar vb.) tokenize ederek, yatırımcıların küçük miktarlarla bile bu projelere ortak olmasını sağlayan blokzincir tabanlı bir pazaryeridir.
+### **Core Concept**  
+TechToken Innovation Market is a blockchain-based marketplace that tokenizes software-based real-world assets (such as SaaS projects, AI systems, licensed software), enabling investors to co-own these projects even with small amounts.
 
-### **Değer Önerisi**
-- **Girişimciler ve Yazılım Geliştiricileri için**: Erken finansman erişimi, global yatırımcı kitlesiyle buluşma, projelerin şeffaflıkla değerlendirilip öne çıkması. Teknik potansiyelin tokenize edilerek sürdürülebilir gelir modellerine dönüşmesi.  
-- **Yatırımcılar için**: Erken aşama yüksek potansiyelli yazılım ve yapay zeka projelerine mikro yatırım imkânı, şeffaf gelir paylaşımı, platform içi oylamalarla karar süreçlerine katılım ve çeşitlendirilmiş dijital portföy oluşturma.  
-- **Teknik Değerlendiriciler ve Analistler için**: Uzmanlıklarını kullanarak projeleri denetleme ve puanlama, topluluğa güvenli yatırım rehberliği sağlama ve katkı karşılığında platform token’ları ile ödüllendirilme.
+### **Value Proposition**
+- **For Entrepreneurs and Software Developers**: Access to early-stage funding, reaching a global investor base, projects being evaluated transparently and gaining visibility. Technical potential is transformed into sustainable revenue models through tokenization. 
+- **For Investors**: Micro-investment opportunities in high-potential early-stage software and AI projects, transparent revenue sharing, participation in platform decisions through voting, and building a diversified digital portfolio.
+- **For Technical Reviewers and Analysts**: Using their expertise to audit and rate projects, guiding the community with secure investment recommendations, and being rewarded with platform tokens in return for their contributions.
 
-## 🎨 **Görsel Kimlik Güncellemeleri**
+## 🎨 **Visual Identity Updates**
 
-### **Renk Paleti**
+### **Color Palette**
 ```css
 --primary:    #0D47A1;
 --secondary:  #00ACC1;
@@ -29,93 +29,93 @@ TechToken Innovation Market, yazılım tabanlı gerçek dünya varlıklarını (
 --foreground: #212121;
 ```
 
-### **İkonlar ve Emojiler**
-- **Ana Tema**: 💡 📈 🤖 🧠 🛠️ 💰  
-- **Alt Kategoriler**: 🧬 🧑‍💻 📊 🧾 🎯 🌐  
-- **İşlemler**: 📝 💰 📈 🔍 ✅ 🚀
+### **Icons & Emojis**
+- **Main Theme**: 💡 📈 🤖 🧠 🛠️ 💰  
+- **Subcategories**: 🧬 🧑‍💻 📊 🧾 🎯 🌐  
+- **Actions**: 📝 💰 📈 🔍 ✅ 🚀
 
-### **Tipografi**
-- **Başlıklar**: Poppins  
-- **İçerik**: Open Sans  
-- **Ton**: Sıcak, güvenilir, profesyonel
+### **Typography**
+- **Headings**: Poppins  
+- **Content**: Open Sans  
+- **Tone**: Warm, trustworthy, professional
 
 ---
 
-### **🏠 Ana Sayfa (`app/page.tsx`)**
+### **🏠 Homepage (`app/page.tsx`)**
 
-#### **Başlık ve Açıklama**
+#### **Title and Description**
 ```typescript
 title: "TechToken Innovation Market"  
-description: "Yapay zeka, SaaS çözümleri ve yazılım projelerini tokenize ederek yatırımcılarla buluşturan RWA yatırım platformu."
+description: "An RWA investment platform that tokenizes AI, SaaS solutions, and software projects and connects them with investors."
 ```
-#### **Dashboard Kartları**
+#### **Dashboard Cards**
 ```typescript
-"Portfolio Değeri" → "Token Portföy Değeri"  
-"Toplam Yatırım" → "Yatırılan Toplam Sermaye"  
-"Aktif Varlıklar" → "Canlı Teknoloji Projeleri"  
-"Compliance Status" → "Uyumluluk ve İnceleme Durumu"
+"Portfolio Value" → "Token Portfolio Value"  
+"Total Investment" → "Total Committed Capital"  
+"Active Assets" → "Live Technology Projects"  
+"Compliance Status" → "Compliance & Review Status"
 ```
 
-#### **Hızlı Eylemler**
+#### **Quick Actions**
 ```typescript
-"Varlık Keşfet" → "Projeleri Keşfet"  
-"Token Transfer" → "Yatırım Payı Transferi"  
-"Tokenize Et" → "Projeni Tokenize Et"
+"Discover Assets" → "Explore Projects"  
+"Token Transfer" → "Share Investment Stake"  
+"Tokenize Asset" → "Tokenize Your Project"
 ```
 
 ### **🏪 Marketplace (`app/marketplace/page.tsx`)**
 ```typescript
-asset_type: ["Yapay Zeka Uygulaması", "SaaS Platformu", "Patentli Yazılım", "API Servisi"]  
-location: ["Kuzey Amerika", "Avrupa", "Asya-Pasifik", "Uzaktan Geliştirilen"]  
-category: ["Sağlık Teknolojileri", "FinTech Çözümleri", "Eğitim Teknolojileri", "Veri Analitiği & ML"]  
-certification: ["MVP Hazır", "Patent Başvurusu Yapıldı", "Regülasyon Uyumlu", "Güvenlik Denetimi Geçti"]
+asset_type: ["AI Application", "SaaS Platform", "Patented Software", "API Service"]  
+location: ["North America", "Europe", "Asia-Pacific", "Remote Developed"]  
+category: ["HealthTech", "FinTech", "EdTech", "Data Analytics & ML"]  
+certification: ["MVP Ready", "Patent Filed", "Regulation Compliant", "Security Audited"]
 ```
-#### **Varlık Kartları**
+#### **Asset Cards**
 ```typescript
 {
-- name: "AI-Powered Analytics Suite",
-- symbol: "TAI",
-- creator: "InnovateTech Labs",
-- date: "2025-06-01",
-- specs: "SaaS, AI, Veri Analitiği, Bulut Tabanlı",
-- price_per_token: "15 USD",
-- total_supply: 1000000,
-- sold_percentage: 45
+  name: "AI-Powered Analytics Suite",
+  symbol: "TAI",
+  creator: "InnovateTech Labs",
+  date: "2025-06-01",
+  specs: "SaaS, AI, Data Analytics, Cloud-Based",
+  price_per_token: "15 USD",
+  total_supply: 1000000,
+  sold_percentage: 45
 }
 ```
-#### **Metrikler**
+#### **Metrics**
 ```typescript
-"Toplam Varlık Değeri" → "Toplam Tokenize Edilen Değer"  
-"Aktif Yatırımcılar" → "Aktif Katılımcılar"  
-"Tamamlanan İşlemler" → "Başarıyla Gerçekleşen Yatırımlar"
+"Total Asset Value" → "Total Tokenized Value"  
+"Active Investors" → "Active Participants"  
+"Completed Transactions" → "Successfully Executed Investments"
 ```
 
 ### **🌱 Tokenization (`app/tokenize/page.tsx`)**
-#### **5 Adımlı Süreç**
+#### **5-Step Process**
 ```typescript
-1. "Proje Bilgileri"
-2. "Teknik Detaylar"
-3. "Yasal & Lisans Belgeleri"
-4. "Token Ekonomisi"
-5. "Yayınlama & Pazarlama"
+1. "Project Information"
+2. "Technical Details"
+3. "Legal & Licensing Documents"
+4. "Token Economics"
+5. "Publishing & Marketing"
 ```
 
 ### **💸 Transfer (`app/transfer/page.tsx`)**
 
-#### **Transfer Terminolojisi**
+#### **Transfer Terminology**
 ```typescript
-"Token Transfer" → "Token Paylaşımı"  
-"Alıcı Adresi" → "Alıcı Cüzdan Adresi"  
-"Transfer Miktarı" → "Gönderilen Token Miktarı"  
-"Compliance Check" → "Uyumluluk Doğrulaması"
+"Token Transfer" → "Token Sharing"  
+"Recipient Address" → "Receiver Wallet Address"  
+"Transfer Amount" → "Number of Tokens Sent"  
+"Compliance Check" → "Regulatory Verification"
 ```
 ### **🎨 Layout (`app/layout.tsx`)**
 
 #### **Metadata**
 ```typescript
 export const metadata = {
-  title: 'TechToken Innovation Market - SaaS & AI Tokenizasyon Platformu',
-  description: 'Yapay zeka, SaaS ve teknoloji alanında yenilikçi projeleri tokenize edip yatırımcılarla buluşturan güvenilir platform.',
+  title: 'TechToken Innovation Market - SaaS & AI Tokenization Platform',
+  description: 'A trusted platform that tokenizes innovative AI, SaaS, and software projects and connects them with investors.',
   icons: {
     icon: '/techtoken-favicon.ico',
   }
@@ -124,18 +124,18 @@ export const metadata = {
 
 ### **📱 Header (`components/layout/Header.tsx`)**
 
-#### **Navigasyon Menüsü**
+#### **Navigation Menu**
 ```typescript
-"Dashboard" → "Ana Panel"  
-"Marketplace" → "Yenilikçi Projeler"  
-"Tokenize" → "Proje Tokenizasyonu"  
-"Transfer" → "Token Paylaşımı"
+"Dashboard" → "Main Panel"  
+"Marketplace" → "Innovative Projects"  
+"Tokenize" → "Project Tokenization"  
+"Transfer" → "Token Sharing"
 ```
 
 ---
 
 
-## 🔧 **Teknik Güncellemeler**
+## 🔧 **Technical Updates**
 
 ### **Type Definitions (`lib/types.ts`)**
 
@@ -208,6 +208,5 @@ SAMPLE_TechAssets = [
     }
   }
 ]
-
 ```
 ---
