@@ -6,6 +6,7 @@
 ### **Platform Adı**: TechToken Innovation Market  
 ### **Ana Varlık Türü**: SaaS çözümleri, yapay zeka uygulamaları, patentli yazılımlar  
 ### **Hedef Kitle**: Teknoloji girişimcileri, yazılım geliştiricileri, erken aşama yatırımcılar  
+### **Contract_ID**: CDI7AI3K6Y6F5LL5AFVEQBZRGTK4PBYN7JSVSJLKZ3YO27UMUD2F3DN3
 
 ## 🎯 **Platform Vizyonu**
 
